@@ -51,7 +51,7 @@ function Navigation(props) {
           Tomlin Construction
         </h1>
         <Navbar expand="md">
-          <NavbarToggler onClick={toggle} light color="light" />
+          <NavbarToggler onClick={toggle}/>
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mx-auto" navbar>
               {paths.map(pages => (
