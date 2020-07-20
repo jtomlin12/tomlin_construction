@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "reactstrap";
-import { Fade } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
+// import { Fade } from 'react-slideshow-image';
+// import 'react-slideshow-image/dist/styles.css'
 
 export default function Home(props) {
   const fadeImages = [
@@ -15,7 +15,7 @@ export default function Home(props) {
   return (
     <div>
       <Container>
-      <div className="slide-container">
+      {/* <div className="slide-container">
         <Fade>
           <div className="each-fade">
             <img src={fadeImages[0]} alt="image0" className="App"/>
@@ -33,7 +33,7 @@ export default function Home(props) {
             <img src={fadeImages[4]} alt="image4" className="App" />
           </div>
         </Fade>
-      </div>
+      </div> */}
       </Container>
     </div>
   );
