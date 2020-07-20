@@ -19,6 +19,7 @@
     "styled-components": "^5.1.1"
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "react-scripts": "^3.0.1",
     "reinstall-node-modules": "^2.0.0",
     "typescript": "3.8.3"
@@ -29,7 +30,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b build"
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
