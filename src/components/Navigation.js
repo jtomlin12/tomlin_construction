@@ -9,12 +9,13 @@ import {
   NavLink,
 } from "reactstrap";
 import { Footer } from "../components/Footer";
+import Background from "../images/Stone-Wallpaper-HD.jpg";
 
 function Navigation(props) {
   const styles = {
     background: {
       height: "100vh",
-      backgroundImage: "url(/images/Stone-Wallpaper-HD.jpg)",
+      backgroundImage: 'url('+Background+')',
       backgroundSize: '100% 100%',
       backgroundRepeat: 'no-repeat',
     }

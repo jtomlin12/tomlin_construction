@@ -19,7 +19,7 @@ export default function Home(props) {
     <div>
       <Container>
       <div className="slide-container">
-        {/* <Fade> */}
+        {/* <Carousel> */}
           {
             fadeImages.map((img, i) => (
               <div key={i} className="each-fade">
@@ -27,7 +27,7 @@ export default function Home(props) {
               </div>
             ))
           }
-        {/* </Fade> */}
+        {/* </Carousel> */}
       </div>
       </Container>
     </div>
