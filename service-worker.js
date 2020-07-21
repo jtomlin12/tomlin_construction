@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tomlin_construction/precache-manifest.d8f985c74a4743ad7dc399b9f4d0ced7.js"
+  "/tomlin_construction/precache-manifest.2bf2ce4b23dac2fbb9257a1f2357b155.js"
 );
 
 self.addEventListener('message', (event) => {
