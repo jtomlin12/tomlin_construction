@@ -12,7 +12,7 @@
   "dependencies": {
     "bootstrap": "^4.5.2",
     "isotope-layout": "^3.0.6",
-    "next": "9.5.3",
+    "next": "9.5.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-hook-form": "^6.8.4",
